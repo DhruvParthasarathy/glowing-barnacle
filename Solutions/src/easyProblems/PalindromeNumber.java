@@ -55,7 +55,9 @@ public class PalindromeNumber {
 		
 		int temp = x;
 		
-		// Logic for reversing a number present in ReverseNumber function
+		// Reversing the number to check if it is a palindrome 
+		// Logic for reversing a number present in ReverseNumber problem file
+		// https://github.com/DhruvParthasarathy/glowing-barnacle/blob/main/Solutions/src/easyProblems/ReverseNumber.java
 		while(temp != 0 ) {
 			reversedNum = reversedNum*10 + temp%10;
 			temp /= 10;
