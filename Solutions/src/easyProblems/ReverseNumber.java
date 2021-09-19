@@ -46,7 +46,7 @@ public class ReverseNumber {
 		// number % 10 gives the last digit, Eg: 3
 		// number /10 gives the number apart from the last number . Eg: 12
 		
-		// in the next iteration we retain the modulo value , multiply it by 10 and add the next modulo
+		// in the next iteration we retain the newNumber value , multiply it by 10 and add the next modulo
 		
 		/**
 		 * Edge case: Input numbers like x = 1534236469
@@ -79,7 +79,7 @@ public class ReverseNumber {
 		if(reversedNum > Integer.MAX_VALUE || reversedNum < Integer.MIN_VALUE) return 0;
 		
 		// since we are supposed to return an int data type, we change the type back to int
-		return (int)reversedNum;
+		return (int)reversedNum; // will return 0 if any edge case is met
 	}
 
 }
