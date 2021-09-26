@@ -27,6 +27,8 @@ public class ReverseNumber {
 		
 		System.out.println(reverseNum(number));
 		
+		sc.close();
+		
 		
 	}
 	

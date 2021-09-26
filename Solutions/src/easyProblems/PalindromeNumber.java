@@ -39,6 +39,8 @@ public class PalindromeNumber {
 		
 		System.out.println(isPalindrome(x));
 		
+		sc.close();
+		
 		
 	}
 	
