@@ -112,6 +112,7 @@ public class RotatedSortedArray {
 		while(s != e) {
 			int m = s + (e - s) /2;
 			
+			// we only look at the right, but don't know what's on the left
 			if(arr[m] >= arr[0]) {
 				// this could be the index after the split
 				index = m;
@@ -121,7 +122,7 @@ public class RotatedSortedArray {
 			}
 			
 			else {
-				// move left
+				// move left, but keep the mid element as the end
 				e = m;
 			}
 			
